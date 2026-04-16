@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.product-container {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-item {
+  /* Tạo bố cục lưới */
+  float: left; /* Đẩy các khối nằm cạnh nhau */
+  width: 33.33%; /* Chia màn hình làm 3 phần bằng nhau */
+
+  /* Trang trí giống mẫu */
+  padding: 20px;
+  border: 1px solid #ddd;
+  min-height: 250px; /* Đảm bảo các khung cao bằng nhau */
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}

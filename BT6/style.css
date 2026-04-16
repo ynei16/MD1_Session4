@@ -1,0 +1,29 @@
+.container {
+  text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.button-group {
+  text-align: center;
+  padding: 30px;
+  background-color: #fcfcfc;
+}
+
+.category-item {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  margin: 5px;
+  text-decoration: none;
+  color: #333;
+  font-family: sans-serif;
+  transition: all 0.3s ease;
+}
+
+.category-item:hover {
+  background-color: #3498db;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

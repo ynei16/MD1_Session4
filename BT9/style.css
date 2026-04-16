@@ -1,0 +1,61 @@
+/* --- PHẦN KẾ THỪA BÀI 7 --- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.product-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-item {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+  border: 1px solid #eee;
+}
+
+.price {
+  color: #e74c3c;
+  font-weight: bold;
+  display: block;
+  margin: 10px 0;
+}
+
+.buy-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.clear {
+  clear: both;
+}
+
+/* --- PHẦN BỔ SUNG BÀI 9: RESPONSIVE --- */
+
+@media (max-width: 768px) {
+  .product-item {
+    width: 100%; /* Ép mỗi sản phẩm chiếm hết 100% chiều ngang */
+    float: none; /* Bỏ tính chất nổi cạnh nhau */
+    margin-bottom: 20px; /* Thêm khoảng cách giữa các thẻ khi xếp chồng */
+    border: 1px solid #ddd;
+  }
+
+  .product-container {
+    padding: 10px;
+  }
+}

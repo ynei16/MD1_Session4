@@ -1,0 +1,9 @@
+.popup {
+  width: 600px;
+  margin: 50px auto; /* Căn giữa ngang: auto chia đều khoảng trống 2 bên */
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
