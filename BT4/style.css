@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: #2ecc71; /* Màu xanh */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+/* Biến màu tím cho các box cuối để giống hình mẫu */
+.box-3,
+.box-6,
+.box-2,
+.box-5 {
+  background-color: #9b59b6;
+}
+
+/* BÀI TẬP CHÍNH */
+
+.hide-display {
+  display: none;
+  /* KẾT QUẢ: Biến mất hoàn toàn, Sản phẩm 3 sẽ nhảy lên sát Sản phẩm 1 */
+}
+
+.hide-visibility {
+  visibility: hidden;
+  /* KẾT QUẢ: Không nhìn thấy chữ/nền, nhưng khoảng trống 150px vẫn còn đó */
+}

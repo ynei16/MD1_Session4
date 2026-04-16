@@ -1,0 +1,22 @@
+.product-card {
+  /* 1. Kích thước và Viền */
+  width: 300px;
+  border: 2px solid #5dade2; /* Viền màu xanh dương nhạt */
+  border-radius: 8px; /* Bo góc cho thẻ đẹp hơn */
+
+  /* 2. Box Model - Cực kỳ quan trọng */
+  box-sizing: border-box; /* Giữ nguyên kích thước 300px dù có thêm padding */
+
+  padding: 20px; /* Khoảng cách từ nội dung đến viền (Bên trong) */
+  margin: 30px; /* Khoảng cách từ viền đến các thẻ khác (Bên ngoài) */
+
+  /* 3. Trang trí chữ */
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.price {
+  color: #e74c3c; /* Màu đỏ cho giá tiền */
+  font-weight: bold;
+  margin-top: 15px; /* Khoảng cách giữa giá và đoạn mô tả */
+}
